@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #090f1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 320px;
+    height: 520px;
+    padding: 12px;
+    background: linear-gradient(180deg, #dcedff, #3ab5be);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 16px;
+}
+
+h2 {
+    color: #039882;
+}
+
+.inputBox {
+    display: flex;
+    gap: 12px;
+}
+
+#taskInput, #btn, #clearBtn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: -1px 1px 2px #999;
+}
+
+#btn, #clearBtn {
+    background: linear-gradient(180deg, #81f2c7, #25d0b1);
+    cursor: pointer;
+}
+
+#btn:active, #clearBtn:active  {
+    scale: 0.95;
+}
+
+ul {
+    height: 300px;
+    width: 88%;
+    padding: 0 4px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 4px;
+}
+
+li {
+    padding: 10px;
+    background: linear-gradient(180deg, #eee, #b7f5f5);
+    border-radius: 8px;
+    box-shadow: -1px 1px 2px #999;
+    display: flex;
+    align-items: center;
+}
+
+li button {
+    border: none;
+    position: absolute;
+    right: 16px;
+    background: transparent;
+    cursor: pointer;
+}
+
+li input {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
