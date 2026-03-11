@@ -15,7 +15,7 @@ body {
 
 .box {
     width: 340px;
-    height: 520px;
+    height: 580px;
     padding: 12px;
     background: linear-gradient(180deg, #dcedff, #3ab5be);
     display: flex;
@@ -52,7 +52,7 @@ h2 {
 }
 
 ul {
-    height: 300px;
+    height: 360px;
     width: 88%;
     padding: 0 4px;
     overflow-y: auto;
@@ -86,4 +86,5 @@ li input {
     height: 18px;
     margin-right: 8px;
 }
+
 
